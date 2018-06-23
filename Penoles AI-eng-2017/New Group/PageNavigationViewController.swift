@@ -36,28 +36,28 @@ class PageNavigationViewController: UIViewController {
     var menuConstraint: NSLayoutConstraint!
 
     var sections:[Section] = [
-        Section(name: "Portada", pages: [
+        Section(name: "Start", pages: [
            // ImagePage(imageName: "portada"),
             CoverPage(theBg: "cover_bg", theFront: "cover_title", theTitle: "cover_front"),
             ]),
-        Section(name: "Perfil corporativo", pages: [
+        Section(name: "Business Model", pages: [
             ImagePage(imageName: "perfil_corp_pag1"),
             ImagePage(imageName: "perfil_corp_pag2"),
             MapPage(),
             ]),
-        Section(name: "Modelo de negocio", pages: [
+        Section(name: "Financial Highlights", pages: [
             ImagePage(imageName: "modelo_pag1"),
             modelo_negocio_3Page(imageName: "modelo_pag2"),
             ImagePage(imageName: "modelo_pag3"),
             ImagePage(imageName: "modelo_pag4"),
             ]),
-        Section(name: "Informe anual", pages: [
+        Section(name: "Letter to Shareholders", pages: [
             ImagePage(imageName: "inf_anual_pag1"),
             ]),
-        Section(name: "Informe del Director", pages: [
+        Section(name: "Letter to the Board of Directors", pages: [
             ImagePage(imageName: "inf_director_pag1"),
             ]),
-        Section(name: "Resumen de operaciones", pages: [
+        Section(name: "Review of Operations", pages: [
             CoverPage(theBg: "ro_cover_bg", theFront: "ro_cover_title", theTitle: "ro_cover_front"),
             ImagePage(imageName: "res_operacion_pag1"),
             ImagePage(imageName: "res_operacion_pag2"),
@@ -82,27 +82,27 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "res_operacion_pag21"),
             
             ]),
-        Section(name: "Energía y Tecnológica", pages: [
+        Section(name: "Energy and Technology", pages: [
             CoverPage(theBg: "et_cover_bg", theFront: "et_cover_front", theTitle: "et_cover_title"),
             ImagePage(imageName: "energia_tec_pag1"),
             ImagePage(imageName: "energia_tec_pag2"),
             ]),
-        Section(name: "Nuestra gente", pages: [
+        Section(name: "Our People", pages: [
             CoverPage(theBg: "ng_cover_bg", theFront: "ng_cover_front", theTitle: "ng_cover_title"),
             ImagePage(imageName: "nuestra_gente_pag1"),
             ]),
-        Section(name: "Gobierno corporativo", pages: [
+        Section(name: "Corporate Governance", pages: [
             CoverPage(theBg: "gc_cover_bg", theFront: "gc_cover_front", theTitle: "gc_cover_title"),
             ImagePage(imageName: "gob_corp_pag1"),
             ImagePage(imageName: "gob_corp_pag2"),
             ]),
-        Section(name: "Equipo directivo", pages: [
+        Section(name: "Management", pages: [
             ImagePage(imageName: "ejecutivos_pag1"),
             ]),
-        Section(name: "Consejo de Administración", pages: [
+        Section(name: "Board of Directors", pages: [
             ImagePage(imageName: "consejo_admon_pag1"),
             ]),
-        Section(name: "Análisis y discusión de resultados ", pages: [
+        Section(name: "Management Discussion and Analysis", pages: [
             ImagePage(imageName: "analisis_res_pag1"),
             ImagePage(imageName: "analisis_res_pag2"),
             ImagePage(imageName: "analisis_res_pag3"),
@@ -112,16 +112,13 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "analisis_res_pag7"),
             ImagePage(imageName: "analisis_res_pag8"),
             ]),
-        Section(name: "Informe del comite de auditoría", pages: [
+        Section(name: "Report of the Audit and Corporate Governance Committee", pages: [
             ImagePage(imageName: "inf_comite_pag1"),
             ]),
-        Section(name: "Información para accionistas", pages: [
+        Section(name: "Shareholder Information", pages: [
             ImagePage(imageName: "inf_accionistas_pag1"),
-            ]),
-        Section(name: "Contra portada", pages: [
             ImagePage(imageName: "back_cover"),
-            ]),
-        
+            ]),        
         ]
 
     var showingMenu: Bool = false

@@ -14,7 +14,7 @@
         <!--Page Navigation View Controller-->
         <scene sceneID="ccK-Vt-HJH">
             <objects>
-                <viewController id="3V3-DT-pvr" customClass="PageNavigationViewController" customModule="Penoles_AI_2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3V3-DT-pvr" customClass="PageNavigationViewController" customModule="Penoles_AI_eng_2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nyE-Rk-vwv">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PageCollectionViewCell" id="c9u-eP-nC9" customClass="PageCollectionViewCell" customModule="Penoles_AI_2017" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PageCollectionViewCell" id="c9u-eP-nC9" customClass="PageCollectionViewCell" customModule="Penoles_AI_eng_2017" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -149,12 +149,12 @@
         <!--Map View Controller-->
         <scene sceneID="9nD-RX-2SK">
             <objects>
-                <viewController storyboardIdentifier="mapViewController" id="dgk-Fl-OzC" customClass="MapViewController" customModule="Penoles_AI_2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapViewController" id="dgk-Fl-OzC" customClass="MapViewController" customModule="Penoles_AI_eng_2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="56c-kg-X5z">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapa-solo" translatesAutoresizingMaskIntoConstraints="NO" id="z4B-rL-hv4" userLabel="mapasolo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mapa-solo" translatesAutoresizingMaskIntoConstraints="NO" id="z4B-rL-hv4" userLabel="mapasolo">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SSw-9Y-pfj">
@@ -182,13 +182,13 @@
                                 <rect key="frame" x="290" y="692" width="26" height="26"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="7KF-FZ-a4y" userLabel="Units Stack View">
-                                <rect key="frame" x="808" y="83" width="194" height="252"/>
+                                <rect key="frame" x="822" y="83" width="180" height="252"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONv-O3-g3k">
-                                        <rect key="frame" x="0.0" y="0.0" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.015686274510000001" green="0.37254901959999998" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Todas las unidades">
+                                        <state key="normal" title="All units">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -196,10 +196,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO2-OR-Npz">
-                                        <rect key="frame" x="0.0" y="32" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="32" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801369863013" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Operaciones mineras">
+                                        <state key="normal" title="Mining operations">
                                             <color key="titleColor" red="0.33725490196078434" green="0.46666666666666667" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -207,10 +207,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwf-8x-NSW">
-                                        <rect key="frame" x="0.0" y="64" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="64" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Infraestructura">
+                                        <state key="normal" title="Infrastructure">
                                             <color key="titleColor" red="0.16470588235294117" green="0.70588235294117641" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -218,10 +218,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukl-WZ-bcT">
-                                        <rect key="frame" x="0.0" y="96" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="96" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Operaciones Metalúrgicas">
+                                        <state key="normal" title="Metallurgical operations">
                                             <color key="titleColor" red="0.97647058823529409" green="0.69803921568627447" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -229,10 +229,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7w-TD-1j6">
-                                        <rect key="frame" x="0.0" y="128" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="128" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Operaciones químicas">
+                                        <state key="normal" title="Chemical operations">
                                             <color key="titleColor" red="0.27058823529411763" green="0.67450980392156867" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -240,10 +240,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evX-Bn-Qux">
-                                        <rect key="frame" x="0.0" y="160" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="160" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Proyectos en desarrollo">
+                                        <state key="normal" title="Development projects">
                                             <color key="titleColor" red="0.52941176470588236" green="0.46274509803921571" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -251,10 +251,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enr-lG-nkv">
-                                        <rect key="frame" x="0.0" y="192" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="192" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Oficinas comerciales">
+                                        <state key="normal" title="Commercial offices">
                                             <color key="titleColor" red="0.90588235294117647" green="0.11372549019607843" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -262,10 +262,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foH-5T-jZw">
-                                        <rect key="frame" x="0.0" y="224" width="194" height="28"/>
+                                        <rect key="frame" x="0.0" y="224" width="180" height="28"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10423801370000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="5" maxX="5" maxY="5"/>
-                                        <state key="normal" title="Oficinas">
+                                        <state key="normal" title="Offices">
                                             <color key="titleColor" red="0.40000000000000002" green="0.13725490196078433" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -317,7 +317,7 @@
         <!--Cover View Controller-->
         <scene sceneID="Lwf-Ok-KtO">
             <objects>
-                <viewController storyboardIdentifier="coverViewController" id="ox8-Kj-hB0" customClass="CoverViewController" customModule="Penoles_AI_2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="coverViewController" id="ox8-Kj-hB0" customClass="CoverViewController" customModule="Penoles_AI_eng_2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4hJ-Ob-6WB">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -362,7 +362,7 @@
         <!--Image Popup View Controller-->
         <scene sceneID="2A1-P5-kgj">
             <objects>
-                <viewController storyboardIdentifier="imagePopup" id="Pgi-yM-bzp" customClass="ImagePopupViewController" customModule="Penoles_AI_2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="imagePopup" id="Pgi-yM-bzp" customClass="ImagePopupViewController" customModule="Penoles_AI_eng_2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8aE-vt-YC2">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,9 +397,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Mapa-solo" width="2732" height="2048"/>
         <image name="all_unidades_scroll" width="234" height="972"/>
         <image name="down_arrow" width="26" height="26"/>
         <image name="hamburger" width="20" height="10"/>
-        <image name="mapa-solo" width="2732" height="2048"/>
     </resources>
 </document>
