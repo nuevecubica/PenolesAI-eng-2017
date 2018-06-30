@@ -39,7 +39,7 @@ class modelo_negocio_3ViewController: PageWithButtonsViewController {
         // Image coords divided by 3
         NSLayoutConstraint.activate([
             button_cfs.leadingAnchor.constraint(equalTo: imageView.leadingAnchor, constant: 854.9 * imageScale),
-            button_cfs.topAnchor.constraint(equalTo: imageView.topAnchor, constant:  454.0 * imageScale)
+            button_cfs.topAnchor.constraint(equalTo: imageView.topAnchor, constant:  464.0 * imageScale)
             ])
         //*************************************
         //*************************************

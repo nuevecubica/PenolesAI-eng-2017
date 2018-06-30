@@ -136,7 +136,7 @@ class res_operacion_6ViewController: PageWithButtonsViewController {
         //showVideoPopup(videoName: "video")
     }
     @IBAction func button_zinc_Pressed(_ sender: UIButton) {
-        showImagePopup(image:#imageLiteral(resourceName: "res_ope_pag5_Zinc"))
+        showImagePopup(image:#imageLiteral(resourceName: "res_ope_pag4_Zinc"))
         //showVideoPopup(videoName: "video")
     }
     @IBAction func button_cobre_Pressed(_ sender: UIButton) {

@@ -40,13 +40,15 @@ class PageNavigationViewController: UIViewController {
            // ImagePage(imageName: "portada"),
             CoverPage(theBg: "cover_bg", theFront: "cover_title", theTitle: "cover_front"),
             ]),
-        Section(name: "Business Model", pages: [
+        Section(name: "Company Profile", pages: [
             ImagePage(imageName: "perfil_corp_pag1"),
             ImagePage(imageName: "perfil_corp_pag2"),
             MapPage(),
             ]),
+        Section(name: "Business Model", pages: [
+                ImagePage(imageName: "modelo_pag1"),
+                ]),
         Section(name: "Financial Highlights", pages: [
-            ImagePage(imageName: "modelo_pag1"),
             modelo_negocio_3Page(imageName: "modelo_pag2"),
             ImagePage(imageName: "modelo_pag3"),
             ImagePage(imageName: "modelo_pag4"),
@@ -68,6 +70,7 @@ class PageNavigationViewController: UIViewController {
             res_operacion_7Page(imageName: "res_operacion_pag7"),
             res_operacion_8Page(imageName: "res_operacion_pag8"),
             ImagePage(imageName: "res_operacion_pag9"),
+            ImagePage(imageName: "res_operacion_pag9_2"),
             ImagePage(imageName: "res_operacion_pag10"),
             ImagePage(imageName: "res_operacion_pag11"),
             ImagePage(imageName: "res_operacion_pag12"),
